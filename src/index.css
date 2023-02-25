@@ -54,3 +54,19 @@ ul{
 code{
   background-color: red;
 }
+
+@media only screen and (max-width: 600px){
+  html{
+    font-size: 10px;
+  }
+  .container{
+    width: 100vw;
+  }
+  img{
+    width: 120px;
+  }
+  .right-part{
+    font-size: 0.9rem;
+  }
+}
+
